@@ -12,6 +12,7 @@ struct AmbienceApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
