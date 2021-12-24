@@ -23,6 +23,7 @@ struct YouMayAlsoLike: View {
                 ForEach(0..<sounds.count){ index in
                     NavigationLink(destination: SoundDetail(sound: sounds[index])){
                     StandardSound(sound: sounds[index])
+                            .cornerRadius(12.0)
                     }
                     
                 }

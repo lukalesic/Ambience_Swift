@@ -11,10 +11,15 @@ import Foundation
     //to do: napuniti more like this sounds - pazi da ne ubacujes jedno u drugo jer ce se srusit
 
 let fireSound1 = Sound(id: UUID().uuidString, name: "Fire1", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x600/?campfire")!, category1: "Campfire", category2: "Slow", category3: "Peaceful", description: "Default campfire sound bound to make your day more joyful.", moreLikeThisSounds: somefireSounds1, isFavourite: true, soundFile: "fire1")
-let fireSound2 = Sound(id: UUID().uuidString, name: "Fire2", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x601/?fire")!, category1: "Chill", category2: "Easy", category3: "Peaceful", description: "Creates a slow and calming, natural fire ambient.", moreLikeThisSounds: [], isFavourite: false, soundFile: "fire2")
+
+let fireSound2 = Sound(id: UUID().uuidString, name: "Fire2", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x601/?fire")!, category1: "Calming", category2: "Easy", category3: "Peaceful", description: "Creates a slow and calming, natural fire ambient.", moreLikeThisSounds: [], isFavourite: false, soundFile: "fire2")
+
 let fireSound3 = Sound(id: UUID().uuidString, name: "Fire3", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x602/?spark")!, category1: "Meditation", category2: "Calming", description: "There's no source of calm like the nature.", moreLikeThisSounds: [fireSound2], isFavourite: false, soundFile: "fire3")
+
 let fireSound4 = Sound(id: UUID().uuidString, name: "Fire4", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x603/?flame")!, category1: "Ethereal", category2: "Calming", description: "For those cozy winter nights.", moreLikeThisSounds: [fireSound3, fireSound2], isFavourite: false, soundFile: "fire4")
+
 let fireSound5 = Sound(id: UUID().uuidString, name: "Fire5", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x599/?flames")!, category1: "Peaceful", category2: "Calming", description: "Grab a blanket and relax with this fire-based sound.", moreLikeThisSounds: [fireSound4, fireSound3, fireSound2], isFavourite: true, soundFile: "fire1")
+
 let fireSound6 = Sound(id: UUID().uuidString, name: "Fire6", thumbnailURL: URL(string: "https://source.unsplash.com/random/400x598/?firepit")!, category1: "Slow", category2: "Easy", description: "Perfect for studying, meditating or just relaxing.", moreLikeThisSounds: [fireSound5, fireSound4, fireSound4, fireSound2], isFavourite: false, soundFile: "fire1")
 
 
@@ -45,19 +50,19 @@ let forestSound5 = Sound(id: UUID().uuidString, name: "Forest5", thumbnailURL: U
 let forestSound6 = Sound(id: UUID().uuidString, name: "Forest6", thumbnailURL: URL(string: "https://i.imgur.com/Fb945FN.png")!, category1: "Chill", category2: "Natural", description: "Relax and forget about your worries with this easy forest sound.", moreLikeThisSounds: [watersound4], isFavourite: false, soundFile: "forest1")
 
 
-let officeSound1 = Sound(id: UUID().uuidString, name: "Office1", thumbnailURL: URL(string: "https://i.imgur.com/sVLaiKF.png")!, category1: "Easy", category2: "Slow-paced", description: "You'll surprised by how much an office space ambient will help your focus.", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: true, soundFile: "office1")
+let officeSound1 = Sound(id: UUID().uuidString, name: "Office1", thumbnailURL: URL(string: "https://i.imgur.com/sVLaiKF.png")!, category1: "Easy", category2: "Slow-paced", description: "You'd surprised by how much an office space ambient can help sharpen your focus.", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: true, soundFile: "office1")
 
 let officeSound2 = Sound(id: UUID().uuidString, name: "Office2", thumbnailURL: URL(string: "https://i.imgur.com/rbMcDDN.png")!, category1: "Busy", category2: "Noisy",  description: "For all the noise lovers out there!", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "office2")
 
-let officeSound3 = Sound(id: UUID().uuidString, name: "Office3", thumbnailURL: URL(string: "https://i.imgur.com/txn7SkM.png")!, category1: "Slow", category2: "Easy",description: "Relaxing office ambient", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "office3")
+let officeSound3 = Sound(id: UUID().uuidString, name: "Office3", thumbnailURL: URL(string: "https://i.imgur.com/txn7SkM.png")!, category1: "Slow", category2: "Easy",description: "Relaxing office ambient.", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "office3")
 
-let officeSound4 = Sound(id: UUID().uuidString, name: "Office4", thumbnailURL: URL(string: "https://i.imgur.com/mHsb5jt.png")!, category1: "Easy", category2: "Relaxing", description: "For those slow days at work", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "office4")
+let officeSound4 = Sound(id: UUID().uuidString, name: "Office4", thumbnailURL: URL(string: "https://i.imgur.com/mHsb5jt.png")!, category1: "Easy", category2: "Relaxing", description: "For those slow days at work.", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "office4")
 
 let officeSound5 = Sound(id: UUID().uuidString, name: "Office5", thumbnailURL: URL(string: "https://i.imgur.com/AGWIxGJ.png")!, category1: "Intense", category2: "Potent",  description: "Experience maximum alertness with this powerful office ambient", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: true, soundFile: "office1")
 
 
 
-let stormSound1 = Sound(id: UUID().uuidString, name: "Storm1", thumbnailURL: URL(string: "https://i.imgur.com/oyOJ14R.png")!, category1: "Natural", category2: "Strong",  description: "The most intense storm sound.", moreLikeThisSounds: [watersound4, watersound3], isFavourite: true, soundFile: "storm1")
+let stormSound1 = Sound(id: UUID().uuidString, name: "Storm1", thumbnailURL: URL(string: "https://i.imgur.com/oyOJ14R.png")!, category1: "Natural", category2: "Strong",  description: "Stay alert and focused with this powerful storm ambient!", moreLikeThisSounds: [watersound4, watersound3], isFavourite: true, soundFile: "storm1")
 
 let stormSound2 = Sound(id: UUID().uuidString, name: "Storm2", thumbnailURL: URL(string: "https://i.imgur.com/mCINlna.png")!, category1: "Rainy", category2: "Intense", description: "Stay alert and focused with this powerful storm ambient!", moreLikeThisSounds: [watersound4, watersound3, forestSound2], isFavourite: false, soundFile: "storm2")
 

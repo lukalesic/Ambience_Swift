@@ -29,6 +29,7 @@ struct SoundDetail: View {
                         
                         StandardSound(sound: sound)
                             .frame(width: screen.width / 1.6)
+                            .cornerRadius(12.0)
                         
                         SoundInfoSubHeadline(sound: sound)
                         
