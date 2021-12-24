@@ -40,14 +40,11 @@ struct FavouritesView: View {
                                     .frame(width:210, height:340)
                                     .cornerRadius(12.0)
                                 
-                            
                             }
-                              
                                     
                            }
-                                
                             }
-                            if sound.isFavourite == true{   Text("       \(sound.name)")}
+                      //      if sound.isFavourite == true{   Text("       \(sound.name)")}
                         }.padding(.top, 5)
                         
                         
