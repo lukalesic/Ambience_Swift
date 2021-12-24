@@ -38,6 +38,7 @@ struct FavouritesView: View {
                             if sound.isFavourite == true{
                                 StandardSound(sound: sound)
                                     .frame(width:210, height:340)
+                                    .cornerRadius(12.0)
                                 
                             
                             }
